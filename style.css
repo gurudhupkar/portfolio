@@ -1,0 +1,182 @@
+body{
+    background-color: #06113C;
+    font-family: 'Hind', sans-serif;
+    color: #DDDDDD;
+   margin: 0;
+}
+html{
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+}
+.navbar{
+   
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 2%;
+
+
+}
+.headName{
+    font-size: 1.5rem;
+    text-align: center;
+}
+#topbody{
+    width: 100%;
+  background-image: url(./circle-scatter.svg); 
+  background-size: cover;
+
+}
+
+a{
+    text-decoration: none;
+    color: #8758FF;
+}
+a:hover{
+    color: #FF8C32;
+}
+.edu{
+padding: 5%;
+}
+
+@keyframes cpp {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 80%
+    }
+}
+@keyframes c {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 90%
+    }
+}
+@keyframes html {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 75%
+    }
+}
+@keyframes css {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 85%
+    }
+}
+
+.cpp{
+
+
+    color:#dddddd;
+    background-color: #FF8C32;
+    border-radius: 10px;
+    width: 0%;
+    animation: cpp 1.5s forwards;
+}
+.c{
+    color:#dddddd;
+    background-color: #FF8C32;
+    border-radius:10px ;
+    animation: c 1.5s forwards;
+
+}
+.HTML{
+    color:#dddddd;
+    background-color: #FF8C32;
+    border-radius:10px ;
+    animation: html 1.5s forwards;
+
+}
+.css{
+    color:#dddddd;
+    background-color: #FF8C32;
+    border-radius:10px ;
+    animation: css 1.5s forwards;
+
+}
+#project{
+    margin-top: -25px;
+background-image: url(./layered-waves.svg); 
+background-size: cover;
+
+}
+.cards{
+    display: flex;
+    justify-content: space-evenly;
+}
+.card{
+    width: 250px;
+    padding:20px;
+    border-radius: 10%;
+    background-color: #3b4c76;
+    height: fit-content;
+    margin-right: 10px;
+}
+#contact
+{
+    margin-top: -25px;
+    background-image: url(./layered-waves2.svg); 
+    background-size: cover;
+    text-align: center;
+}
+.submit{
+    padding: 15px;
+    border-radius: 5px;
+    background-color: #0033ff;
+    color: #dddddd;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+.name{
+    background-color: #dddddd;
+    
+}
+.mail{
+    background-color: #dddddd;
+}
+.contact{
+    background-color: #dddddd;
+}
+#form{
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+    padding:20px;
+    border-radius: 10%;
+    background-color: #3b4c76;
+    height: 250px;
+}
+#profile{
+    
+    padding: 50px;
+}
+.meet{
+    padding: 10px;
+}
+.form{
+    text-align: center;
+    width: 50%;
+    padding: 10px;
+    border-right: none;
+    border-left: none;
+    border-top: none;
+    border-bottom: 2px solid #FF8C32;
+    background-color: transparent;
+}
+.form:focus-visible{
+    transition: 250ms all;
+    width: 90%;
+    border-right: none;
+    border-left: none;
+    border-top: none;
+    outline: none;
+}
